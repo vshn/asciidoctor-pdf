@@ -9,6 +9,7 @@
 :description: Sample document to create complex PDFs with VSHN style
 :keywords: VSHN, VSHNeer, work, systems, DevOps
 :lang: en
+:imagesdir: {docdir}/images
 
 
 [colophon]
@@ -59,6 +60,15 @@ This is the second part!
 
 
 == Conclusion
+
+Inline equation: stem:[e^{ i \theta_1} = \cos{\theta_1} + i \sin{\theta_1}]
+
+Block equation:
+
+[stem]
+++++
+\frac{\partial^2 u}{\partial x^2}=\frac{1}{c^2} \frac{\partial^2 u}{\partial t^2}\]
+++++
 
 That's ((all)), folks!
 
