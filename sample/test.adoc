@@ -1,0 +1,68 @@
+:author: VSHN AG
+:revdate: {docdate}
+:revnumber: 1.2
+:email:  handbook@vshn.ch
+:copyright: CC-BY-SA 3.0
+:doctitle: The VSHN Asciidoctor Sample Document
+:producer: VSHN AG
+:creator: VSHN AG
+:description: Sample document to create complex PDFs with VSHN style
+:keywords: VSHN, VSHNeer, work, systems, DevOps
+:lang: en
+
+
+[colophon]
+= Colophon
+
+This is a sample book built with the `vshn/asciidoctor-pdf` docker image.
+
+
+= First Part
+
+[partintro]
+--
+This is the first part!
+--
+
+
+
+== Introduction
+
+A simple http://asciidoc.org[AsciiDoc] document.
+
+A ((paragraph)) followed by an unordered list{empty}footnote:[AsciiDoc supports unordered, ordered, and description lists.] with square bullets.footnote:[You may choose from square, disc, and circle for the bullet style.]
+
+[square]
+* item 1
+* item 2
+
+Here's how you say "`Hello, World!`" in ((Prawn)):
+
+.Create a basic PDF document using Prawn
+[source,ruby]
+----
+require 'prawn'
+
+Prawn::Document.generate 'example.pdf' do
+  text 'Hello, World!'
+end
+----
+
+
+
+= Second Part
+
+[partintro]
+--
+This is the second part!
+--
+
+
+== Conclusion
+
+That's ((all)), folks!
+
+
+
+[index]
+= Index
