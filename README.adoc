@@ -2,7 +2,7 @@
 
 This project generates a Docker image to be used to generate PDF books with a standard VSHN style and fonts.
 
-The image is available in [Docker Hub](https://hub.docker.com/r/vshn/asciidoctor-pdf).
+The image is available in https://hub.docker.com/r/vshn/asciidoctor-pdf[Docker Hub].
 
 == Build
 
