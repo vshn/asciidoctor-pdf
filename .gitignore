@@ -1,3 +1,6 @@
 .vscode
 *.pdf
 *.svg
+*.png
+.asciidoctor
+?
