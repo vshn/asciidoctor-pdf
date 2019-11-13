@@ -3,7 +3,7 @@
 :revnumber: 1.2
 :email:  handbook@vshn.ch
 :copyright: CC-BY-SA 3.0
-:doctitle: The VSHN Asciidoctor Sample Document
+:doctitle: VSHN Sample PDF Book
 :producer: VSHN AG
 :creator: VSHN AG
 :description: Sample document to create complex PDFs with VSHN style
