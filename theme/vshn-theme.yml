@@ -120,7 +120,7 @@ block:
   margin_top: 0
   margin_bottom: $vertical_rhythm
 caption:
-  align: left
+  align: center
   font_style: italic
   # FIXME perhaps set line_height instead of / in addition to margins?
   margin_inside: $vertical_rhythm / 3
@@ -178,7 +178,7 @@ example:
   # FIXME reenable margin bottom once margin collapsing is implemented
   padding: [$vertical_rhythm, $horizontal_rhythm, 0, $horizontal_rhythm]
 image:
-  align: left
+  align: center
 prose:
   margin_top: 0
   margin_bottom: $vertical_rhythm
