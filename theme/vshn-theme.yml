@@ -105,11 +105,11 @@ title_page:
     top: 55%
     font_size: $heading_h1_font_size
     font_color: 999999
-    line_height: 0.9
+    line_height: 1.5
   subtitle:
     font_size: $heading_h3_font_size
     font_color: 999999
-    line_height: 1
+    line_height: 1.1
   authors:
     margin_top: $base_font_size * 1.25
     font_size: $base_font_size_large
@@ -121,7 +121,8 @@ block:
   margin_bottom: $vertical_rhythm
 caption:
   align: center
-  font_style: italic
+  font_style: normal
+  font_size: $base_font_size_small
   # FIXME perhaps set line_height instead of / in addition to margins?
   margin_inside: $vertical_rhythm / 3
   #margin_inside: $vertical_rhythm / 4
