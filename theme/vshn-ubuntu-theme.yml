@@ -1,10 +1,10 @@
 font:
   catalog:
-    Montserrat:
-      normal: Montserrat-Regular.ttf
-      italic: Montserrat-Italic.ttf
-      bold: Montserrat-Bold.ttf
-      bold_italic: Montserrat-BoldItalic.ttf
+    Ubuntu:
+      normal: Ubuntu-R.ttf
+      italic: Ubuntu-RI.ttf
+      bold: Ubuntu-B.ttf
+      bold_italic: Ubuntu-BI.ttf
     UbuntuMono:
       normal: UbuntuMono-R.ttf
       italic: UbuntuMono-RI.ttf
@@ -41,7 +41,7 @@ base:
   # color as CMYK array (approximated)
   #font_color: [0, 0, 0, 0.92]
   #font_color: [0, 0, 0, 92%]
-  font_family: Montserrat
+  font_family: Ubuntu
   # choose one of these font_size/line_height_length combinations
   #font_size: 14
   #line_height_length: 20
@@ -81,7 +81,7 @@ menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color>
 heading:
   #font_color: 181818
   font_color: $base_font_color
-  font_family: Montserrat
+  font_family: Ubuntu
   font_style: bold
   # h1 is used for part titles (book doctype only)
   h1_font_size: floor($base_font_size * 2.6)
@@ -98,7 +98,7 @@ heading:
   margin_bottom: $vertical_rhythm * 0.9
 title_page:
   align: right
-  font_family: Montserrat
+  font_family: Ubuntu
   logo:
     top: 10%
   title:
