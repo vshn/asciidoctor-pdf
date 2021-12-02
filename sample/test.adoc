@@ -9,7 +9,7 @@
 :description: Sample document to create complex PDFs with VSHN style
 :keywords: VSHN, VSHNeer, work, systems, DevOps
 :lang: en
-:imagesdir: {docdir}/images
+:imagesdir: images
 
 
 [colophon]
@@ -94,8 +94,10 @@ Block equation:
 
 A UML diagram:
 
-[plantuml, diagram-classes, png]     
+[plantuml,diagram-classes]
 ....
+!include plantuml.config
+
 class BlockProcessor
 class DiagramBlock
 class DitaaBlock
