@@ -1,10 +1,10 @@
 all: image
 
 image:
-	docker build -t vshn/asciidoctor-pdf:1.14.2 .
+	podman build -t ghcr.io/vshn/asciidoctor-pdf:master .
 
 build/test.pdf:
-	docker run --rm --tty --user "$$(id -u)" --volume "$${PWD}":/documents vshn/asciidoctor-pdf:1.14.2 --destination-dir=build sample/test.adoc
+	podman run --rm --volume "$${PWD}":/documents ghcr.io/vshn/asciidoctor-pdf:master --destination-dir=build sample/test.adoc
 
 clean:
 	rm -rf build
