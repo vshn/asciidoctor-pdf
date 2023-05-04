@@ -40,3 +40,10 @@ This project sets the following default attributes for the generation of the PDF
 * leveloffset=+1
 
 These attributes can be overridden on the command line passing the corresponding `--attribute` or `-a` parameter.
+
+== Extensions
+
+This container image includes these additional extensions:
+
+- https://github.com/Alwinator/asciidoctor-lists[asciidoctor-lists]
+
