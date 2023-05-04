@@ -4,6 +4,7 @@ asciidoctor --backend=pdf \
     --require=asciidoctor-pdf \
     --require=asciidoctor-mathematical \
     --require=asciidoctor-kroki \
+    --require=asciidoctor-lists \
     --attribute doctype=book \
     --attribute pdf-themesdir=/theme \
     --attribute pdf-theme=vshn \
