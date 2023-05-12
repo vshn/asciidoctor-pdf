@@ -1,6 +1,6 @@
 FROM docker.io/asciidoctor/docker-asciidoctor:1.47.0
 
-RUN gem install asciidoctor-lists
+RUN gem install asciidoctor-lists rghost
 COPY fonts /fonts
 COPY theme /theme
 COPY plantuml.config /plantuml.config
