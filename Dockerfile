@@ -1,4 +1,4 @@
-FROM docker.io/asciidoctor/docker-asciidoctor:1.52.0
+FROM docker.io/asciidoctor/docker-asciidoctor:1.53.0
 
 RUN apk add --no-cache ghostscript
 RUN gem install asciidoctor-lists rghost
